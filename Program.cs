@@ -1,2 +1,16 @@
 ﻿string[] array1 = new string[8] {"123", "23", "hello", "world", "res", "lige","hate","variant"};
 string[] array2 = new string[array1.Length];
+
+void ShortArray(string[] array1,string[] array2 )
+{
+    int i = 0;
+    for (int j = 0; i < array1.Length; j++)   
+    {
+        if (array1[j].Length <= 3)
+        {
+            array2[i] = array1[j];
+            i++;
+        }
+
+    }
+}
