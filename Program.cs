@@ -14,3 +14,11 @@ void ShortArray(string[] array1,string[] array2 )
 
     }
 }
+void PrintArray(string[] array)
+{
+    for (int j = 0; j < array.Length; j++)
+    {
+        Console.Write($"{array[i]}");
+    }
+    Console.WriteLine();
+}
